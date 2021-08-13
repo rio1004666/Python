@@ -8,7 +8,7 @@ cnt = 0
 lst = []
 while True:
     r = random.random()
-    #print(random.random())
+    # print(random.random())
     if r < 0.3:
         break
     else:
