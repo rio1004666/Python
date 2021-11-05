@@ -6,6 +6,7 @@ dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
 
 def bfs(x, y):
+
     q = deque()
     c = [[0]*(w+2) for _ in range(h+2)]
     q.append([x, y])
